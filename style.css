@@ -63,12 +63,16 @@ body, html {
   #gif {
     width: 400px;
     height: 375px;
+    position:fixed;
+    left: 0;
   }
   #gif2 {
     width: 400px;
     height: 375px;
     -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+     position:fixed;
+  right: 0;
   }
   #cam {
     top: 90%;
